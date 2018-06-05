@@ -31,7 +31,7 @@ var server = http.createServer(function(request, response){
   }else if(path == '/'){
     response.setHeader('Content-Type', 'text/html; charset=utf-8')
     response.write('<!DOCTYPE>\n<html>'  + 
-      '<head><link rel="stylesheet" href="/style">' +
+      '<head><link rel="stylesheet" href="/style".css>' +
       '</head><body>'  +
       '<h1>你好，我是HTML的内容</h1>' +
       '<script src="/main.js"></script>' +
